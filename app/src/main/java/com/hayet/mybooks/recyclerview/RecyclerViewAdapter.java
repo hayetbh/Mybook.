@@ -1,4 +1,4 @@
-package com.hayet.mybooks;
+package com.hayet.mybooks.recyclerview;
 
 
 import android.content.Context;
@@ -12,11 +12,11 @@ import android.widget.TextView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.hayet.mybooks.R;
+import com.hayet.mybooks.model.Book;
+
 import java.util.List;
 
-/**
- * Created by Aws on 28/01/2018.
- */
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
 

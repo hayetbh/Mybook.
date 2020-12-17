@@ -1,13 +1,14 @@
-package com.hayet.mybooks;
+package com.hayet.mybooks.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
+
+import com.hayet.mybooks.Constants;
+import com.hayet.mybooks.R;
 
 public class MainActivity extends AppCompatActivity {
     Handler handler;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
                 finish();
             }
-        },Constants.SPLASH_DELAY);
+        }, Constants.SPLASH_DELAY);
 
     }
 }

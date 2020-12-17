@@ -1,4 +1,4 @@
-package com.hayet.mybooks;
+package com.hayet.mybooks.recyclerview;
 
 
 
@@ -9,6 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+
+import com.hayet.mybooks.R;
+import com.hayet.mybooks.model.Book;
 
 import java.util.ArrayList;
 import java.util.List;

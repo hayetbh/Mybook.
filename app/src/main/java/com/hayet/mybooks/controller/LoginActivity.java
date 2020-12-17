@@ -1,4 +1,4 @@
-package com.hayet.mybooks;
+package com.hayet.mybooks.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,14 +11,21 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.hayet.mybooks.Constants;
+import com.hayet.mybooks.R;
+import com.hayet.mybooks.recyclerview.ListBooksActivity;
+
 public class LoginActivity extends AppCompatActivity {
+
 Button btnLogin;
 EditText email, password;
 SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         btnLogin = (Button) findViewById(R.id.button_login);
         email=(EditText)findViewById(R.id.email);
         password=(EditText)findViewById(R.id.password);
@@ -29,17 +36,19 @@ SharedPreferences sharedPreferences;
                 String emailvalue = email.getText().toString();
                 String passvalue = password.getText().toString();
                 if (emailvalue.isEmpty() && passvalue.isEmpty()) {
-                    Toast.makeText(LoginActivity.this, "empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Fields are empty", Toast.LENGTH_SHORT).show();
                 } else {
                     sharedPreferences = getSharedPreferences(Constants.MY_PREF, Context.MODE_PRIVATE);
+
                     final String emailshared = sharedPreferences.getString(Constants.KEY_EMAIL, null);
                     final String passshared = sharedPreferences.getString(Constants.KEY_PASSWORD, null);
+
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString(Constants.KEY_EMAIL, emailvalue);
                     editor.putString(Constants.KEY_PASSWORD, passvalue);
                     editor.apply();
                     ;
-                    Toast.makeText(LoginActivity.this, "success", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, "you have logged in successfully", Toast.LENGTH_LONG).show();
                     openNextActivity();
                 }
             }

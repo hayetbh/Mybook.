@@ -1,4 +1,4 @@
-package com.hayet.mybooks;
+package com.hayet.mybooks.recyclerview;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.hayet.mybooks.R;
 
 public class BookActivity extends AppCompatActivity {
 

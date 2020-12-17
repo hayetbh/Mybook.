@@ -1,4 +1,4 @@
-package com.hayet.mybooks;
+package com.hayet.mybooks.model;
 
 
 
