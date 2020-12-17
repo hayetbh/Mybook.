@@ -54,7 +54,7 @@ Button btnLogout;
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(this,lstBook);
         myrv.setLayoutManager(new GridLayoutManager(this,3));
         myrv.setAdapter(myAdapter);
-        //btn log out
+        //button log out
         btnLogout =(Button)findViewById(R.id.btn_logout);
          btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override

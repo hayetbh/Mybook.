@@ -34,7 +34,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         View view ;
         LayoutInflater mInflater = LayoutInflater.from(mContext);
-        view = mInflater.inflate(R.layout.cardview_item_book,parent,false);
+        view = mInflater.inflate(R.layout.list_item_book,parent,false);
         return new MyViewHolder(view);
     }
 

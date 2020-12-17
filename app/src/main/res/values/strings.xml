@@ -15,7 +15,10 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-
+    <string name="email_error">Please enter a email address</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
     <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
 
 </resources>
