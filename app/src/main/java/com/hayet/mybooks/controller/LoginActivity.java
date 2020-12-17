@@ -19,45 +19,45 @@ public class LoginActivity extends AppCompatActivity {
 
 Button btnLogin;
 EditText email, password;
-SharedPreferences sharedPreferences;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+        initView();
+
+
+
+
+    }
+
+
+    private void  initView(){
         btnLogin = (Button) findViewById(R.id.button_login);
         email=(EditText)findViewById(R.id.email);
         password=(EditText)findViewById(R.id.password);
 
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                String emailvalue = email.getText().toString();
-                String passvalue = password.getText().toString();
-                if (emailvalue.isEmpty() && passvalue.isEmpty()) {
-                    Toast.makeText(LoginActivity.this, "Fields are empty", Toast.LENGTH_SHORT).show();
-                } else {
-                    sharedPreferences = getSharedPreferences(Constants.MY_PREF, Context.MODE_PRIVATE);
-
-                    final String emailshared = sharedPreferences.getString(Constants.KEY_EMAIL, null);
-                    final String passshared = sharedPreferences.getString(Constants.KEY_PASSWORD, null);
-
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
-                    editor.putString(Constants.KEY_EMAIL, emailvalue);
-                    editor.putString(Constants.KEY_PASSWORD, passvalue);
-                    editor.apply();
-                    ;
-                    Toast.makeText(LoginActivity.this, "you have logged in successfully", Toast.LENGTH_LONG).show();
-                    openNextActivity();
-                }
+            public void onClick(View view) {
+                LoginUser();
             }
-                private void openNextActivity() {
-
-                    Intent intent = new Intent(LoginActivity.this, ListBooksActivity.class);
-                    startActivity(intent);
-                }
-
         });
+
+    }
+
+
+
+    private void LoginUser(){
+        SharedPreferences sharedPref = getSharedPreferences(Constants.MY_PREF,Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putBoolean(Constants.PREF_IS_CONNECT,true);
+        editor.apply();
+        startActivity(new Intent(LoginActivity.this, ListBooksActivity.class));
+        finish();
     }
 }
