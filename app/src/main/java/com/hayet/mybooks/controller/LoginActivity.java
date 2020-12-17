@@ -57,6 +57,7 @@ EditText email, password;
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putBoolean(Constants.PREF_IS_CONNECT,true);
         editor.apply();
+        Toast.makeText(getApplicationContext(), "Successfull Login", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(LoginActivity.this, ListBooksActivity.class));
         finish();
     }
