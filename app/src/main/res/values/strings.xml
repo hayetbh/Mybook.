@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">MyBooks.</string>
     <string name="slogan_login">read anything from anywhere</string>
     <string name="sign_in">Sign in</string>
@@ -12,13 +12,80 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="email_error">Please enter a email address</string>
     <string name="error_invalid_email">Email is not valid</string>
     <string name="password_error">Please enter a password</string>
     <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
-    <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    //books Description
+    <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="the_first_woman_desc">A BEST BOOK OF 2020 ACCORDING TO THE SUNDAY TIMES, OBSERVER and DAILY MAIL \n
+                "\n"
+        For one young girl, discovering what it means to become a woman in a family, a community and a country determined to
+        silence her will take all the courage she has.</string>
+    <string name="thewildrobot_desc" tools:ignore="TypographyDashes">When robot Roz opens her eyes for the first time,
+        she discovers that she is all alone on a remote,
+        wild island. She has no idea how she got there or what her purpose is--but she knows she needs to survive.
+        After battling a violent storm and escaping a vicious bear attack, she realizes that her only hope for survival is to adapt to her
+        surroundings and learn from the island s unwelcoming animal inhabitants. As Roz slowly befriends the animals,
+        the island starts to feel like home until, one day, the robot is mysterious past
+        comes back to haunt her.From bestselling and award-winning author and illustrator
+        Peter Brown comes a heartwarming and action-packed novel
+        about what happens when nature and technology collide.</string>
+    <string name="wherewouldyougo_desc">Bernadette Fox is notorious. To her Microsoft-guru husband, she is a fearlessly "
+                "opinionated partner; to fellow private-school mothers in Seattle, she is a disgrace; to design mavens,
+        she is a revolutionary architect, and to 15-year-old Bee, "
+                she is a best friend and, simply, Mom.</string>
+    <string name="thebetterangels_desc">Faced with the ceaseless stream of news about war, crime, and terrorism, one could easily
+                " think we live in the most violent age ever seen. Yet as New York Times bestselling author
+        Steven Pinker shows in this startling and engaging new work, just the opposite "
+                "is true: violence has been diminishing for millenia and we may be living in the most peaceful time
+        in our species's existence. For most of history, war, s"
+                "lavery, infanticide, child abuse, assassinations, programs, gruesom punishments, deadly quarrels,"
+                " and genocide were ordinary features of life. But today, Pinker shows (with the help of more than
+        a hundred graphs and maps) all these forms of violence have "
+                "dwindled and are widely condemned. How has this happened?"</string>
+    <string name="thegiftof_desc">\"“[The Gift of Forgiveness] will spark conversations across families,
+                "across friendships, at workplaces, everywhere.” –Maria Shriver\n"
+                "\n"
+                "A fresh, inspiring book on learning how to forgive, with firsthand stories from those who have learned to let go of
+        resentment and find peace."</string>
+    <string name="thepowerofmeaning_desc">For anyone exhausted or disillusioned by the perpetual pursuit of personal h"
+                appiness, here is the antidote: a book about the pursuit of meaning, a better route to a fulfilling life.\n</string>
+    <string name="thefzult_desc">Despite the tumour-shrinking medical miracle that has bought her a few years, Hazel has never "
+                "been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named
+        Augustus Waters suddenly appears at Cancer Kid Support "
+                Group, Hazel\'s story is about to be completely rewritten.</string>
+    <string name="maybeyoushould_desc" tools:ignore="TypographyDashes">From a New York Timesbest-selling writer, psychotherapist, and
+                " advice columnist, a brilliant and surprising new book that takes us behind the scenes of a
+        therapist's world—where her patients are in crisis "
+                "(and so is she)
+                "\n"
+                "Lexi wakes up in a hospital bed after a car accident, thinking she is twenty-five with crooked teeth
+        and a disastrous love life. But, to her disbelief, "
+                "she learns it is actually three years later - she is a super-toned twenty-eight-year-old, her teeth are straight,
+        she is the boss of her department - "
+                "and she is married to a good-looking millionaire!\n</string>
+    <string name="remembreme_desc">The hilarious romantic comedy from NUMBER ONE BESTSELLING AUTHOR Sophie Kinsella\n</string>
+    <string name="thehappiness_desc">In The Happiness Track, founder of Fulfillment Daily and science director "
+                "of the Center for Compassion and Altruism Research and Education at Stanford University
+        Emma Seppälä draws upon the latest scientific research on resilience, "
+                "willpower, compassion, positive stress, creativity, and mindfulness to reveal the connection between
+        happiness and success, and how to achieve both. Featuring "
+                "practical strategies we can use in our daily lives, The Happiness Track will show you the fulfilling,
+        rewarding, and anxiety-free life that is within your reach.</string>
+    <string name="themartian_desc" tools:ignore="TypographyDashes">After a dust storm nearly kills him and forces
+        his crew to evacuate while thinking him dead, Mark finds himself stranded and completely alone with no way
+        to even signal Earth that he\'s alive--and even if he could get word out, his "
+                "supplies would be gone long before a rescue could arrive."</string>
+    <string name="hediedwith_desc">When a middle-aged alcoholic is found brutally battered to
+                " death on a roadside in West London, the case is assigned to a nameless detective sergeant,
+        a tough-talking cynic and fearless loner from the Department"
+                " of Unexplained Deaths at the Factory police station."</string>
 
 </resources>
