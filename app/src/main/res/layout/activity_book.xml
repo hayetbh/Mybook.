@@ -43,14 +43,15 @@
                 android:background="#edecec"
                 android:padding="8dp"
                 android:layout_marginTop="10dp"/>
+
             <TextView
                 android:id="@+id/book_nbr_pages"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="123 Pages"
-                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
                 android:padding="8dp"
-                android:layout_marginTop="10dp"/>
+                android:text="123 Pages"
+                android:textColor="#512E00" />
 
             <TextView
                 android:id="@+id/book_Desc"
