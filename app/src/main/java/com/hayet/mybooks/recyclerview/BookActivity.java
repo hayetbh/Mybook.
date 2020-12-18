@@ -19,7 +19,7 @@ public class BookActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book);
-
+getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         tvtitle = (TextView) findViewById(R.id.book_title);
         tvdescription = (TextView) findViewById(R.id.book_Desc);
         tvauthor = (TextView) findViewById(R.id.book_author);
